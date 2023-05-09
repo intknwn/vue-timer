@@ -1,16 +1,16 @@
 <template>
-  <Main />
+  <MainScreen />
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import Main from '@/components/MainScreen.vue'
+import MainScreen from '@/components/MainScreen.vue'
 
 export default defineComponent({
   name: 'HomeView',
 
   components: {
-    Main,
+    MainScreen,
   },
 })
 </script>
